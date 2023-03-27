@@ -42,8 +42,8 @@ publishing {
 
             pom {
                 name.set(project.name)
-                description.set("secure ipc")
-                url.set("https://github.com/jc-lab/sipc")
+                description.set("wildcard-fixed routd")
+                url.set("https://github.com/jc-lab/routd")
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0")
@@ -58,9 +58,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git:https://github.com/jc-lab/sipc.git")
-                    developerConnection.set("scm:git:ssh://git@github.com/jc-lab/sipc.git")
-                    url.set("https://github.com/jc-lab/sipc")
+                    connection.set("scm:git:https://github.com/jc-lab/routd.git")
+                    developerConnection.set("scm:git:ssh://git@github.com/jc-lab/routd.git")
+                    url.set("https://github.com/jc-lab/routd")
                 }
             }
         }
